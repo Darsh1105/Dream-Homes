@@ -1,0 +1,207 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<title>Buy</title>
+	<link rel="stylesheet" type="text/css" href="mainpage.css">
+	<link rel="stylesheet" type="text/css" href="buy.css">
+	<link rel="stylesheet" href="menuimage.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="sellmenu.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="icon1.ico"; >
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+</head>
+<style>
+.footer{
+
+top: 1560px;
+width:95.5%;
+margin-left:20px;
+}
+
+</style>
+<body style="background-color: white;">
+	<header>
+		<div class="logo">
+			<img src="logo dreamhomes.png">
+		</div>
+		<div id="header">
+			<ul style="transition: 0.6s ease">
+				<li ><a href="homepage.html">HOME</a></li>
+				<li class="active"><a href="buy.html">BUY</a></li>
+				<li ><a href="rent.html">RENT</a></li>
+				<li><a href="#">LOG IN/SIGN UP</a></li>
+				<li><a href="abtus.html">ABOUT US</a></li>
+				<li><a href="#">GALLERY</a></li>
+			</ul>
+		</div>
+		<div class="slideshow-container" style="width: 1350px;margin-left:8px;"  >
+</header>
+<div class="mySlides fade" style=" display: none; -webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s;">
+
+  <img src="1st.jpg" style="margin-left:20px; width:97%;height:450px;">
+  
+</div>
+
+<div class="mySlides fade style=" display: none; -webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s;"">
+  <div class="numbertext"></div>
+  <img src="2nd.jpg" style="margin-left:20px; width:97%;height:450px;">
+
+</div>
+
+<div class="mySlides fade" style="display: none; -webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s;">
+  <div class="numbertext"></div>
+  <img src="3rd.jpg" style="margin-left:20px ;width:97%;height:450px;">
+
+</div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" style="height: 15px;width: 15px;margin: 0 2px;background-color: #bbb;border-radius: 50%;display: inline-block;transition:background-color 0.6sease;"></span> 
+  <span class="dot" style="height: 15px;width: 15px;margin: 0 2px;background-color: #bbb;border-radius: 50%;display: inline-block;transition:background-color 0.6sease;"></span> 
+  <span class="dot" style="height: 15px;width: 15px;margin: 0 2px;background-color: #bbb;border-radius: 50%;display: inline-block;transition:background-color 0.6sease;"></span> 
+ 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active1";
+  setTimeout(showSlides, 3500); 
+}
+</script>
+
+<div class="row">
+  <div class="column">
+    <div class="coupon">
+      <img src="buy1.jpg" style="width:100%;height:40%">
+    <div class="container" >
+       <h2 style="color:green" >Beautiful Single Home</h2> 
+	   <br>
+     <i class="fa fa-map-marker" style="font-size:20px;color:red;"></i>	
+	 201,Rajvilas colony Indore 
+	 <br><br>
+	 <i style="font-size:20px;color:green" class="fa">&#xf015</i>  1200sqft &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style="font-size:20px;color:green" class="fa">&#xf236;</i>  3BHK  
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px,color:green' class='fas'>&#xf5c5;</i>    Yes
+	  <br><i style="font-size:20px;color:green" class="fa">&#xf2cd;</i>   2 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:green' class='fas'>&#xf26c;</i>
+	  Yes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:green' class='fas'>&#xf5e4;</i> 1 garage 
+	  <br><br>
+    <p><i style='font-size:22px' class='fas'>&#xf007;</i> &nbsp &nbsp  Darsh goyal &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <i style='font-size:20px' class='fas'>&#xf156;</i> 500000</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="coupon">
+      <img src="buy2.jpg" style="width:100%;height:40%">
+    <div class="container">
+       <h2 style="color:green">Modern Family Home</h2>
+	<br>	   
+     <i class="fa fa-map-marker" style="font-size:20px;color:red;"></i>	
+	 221,shilpa nagar Indore 
+	 <br><br>
+	 <i style="font-size:20px;color:red" class="fa">&#xf015</i>  1000sqft &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style="font-size:20px;color:red" class="fa">&#xf236;</i>  2BHK  
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px,color:red' class='fas'>&#xf5c5;</i> NO  
+	  <br><i style="font-size:20px;color:red" class="fa">&#xf2cd;</i>   2 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf26c;</i>
+	  No &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf5e4;</i> 1 garage 
+	  <br><br>
+    <p><i style='font-size:22px' class='fas'>&#xf007;</i> &nbsp &nbsp  Darsh goyal &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <i style='font-size:20px' class='fas'>&#xf156;</i> 300000</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+      <img src="buy3.jpg" style="width:100%;height:40%">
+    <div class="container" >
+        <h2 style="color:green">Sweet Family Home</h2>
+	<br>
+     <i class="fa fa-map-marker" style="font-size:20px;color:red;"></i>	
+	 420,palhar nagar Indore 
+	 <br><br>
+	 <i style="font-size:20px;color:red" class="fa">&#xf015</i>  800sqft &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style="font-size:20px;color:red" class="fa">&#xf236;</i>  2BHK  
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px,color:red' class='fas'>&#xf5c5;</i>    No
+	  <br><i style="font-size:20px;color:red" class="fa">&#xf2cd;</i>   1 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf26c;</i>
+	  No &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf5e4;</i> 0 garage 
+	  <br><br>
+    <p><i style='font-size:22px' class='fas'>&#xf007;</i> &nbsp &nbsp  Aradhya Agrawal &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <i style='font-size:20px' class='fas'>&#xf156;</i> 200000</p>
+      </div>
+    </div>
+  </div>   
+ </div>
+<div class="row">
+  <div class="column">
+    <div class="coupon">
+      <img src="buy4.jpg" style="width:100%;height:40%">
+    <div class="container" >
+       <h2 style="color:green" >Big Head House</h2> 
+	   <br>
+     <i class="fa fa-map-marker" style="font-size:20px;color:red;"></i>	
+	 101,Gumasta Nagar 
+	 <br><br>
+	 <i style="font-size:20px;color:red" class="fa">&#xf015</i>  2400sqft &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style="font-size:20px;color:red" class="fa">&#xf236;</i>  5BHK  
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px,color:red' class='fas'>&#xf5c5;</i>    Yes
+	  <br><i style="font-size:20px;color:red" class="fa">&#xf2cd;</i>   4 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf26c;</i>
+	  Yes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf5e4;</i> 2 garage 
+	  <br><br>
+    <p><i style='font-size:22px' class='fas'>&#xf007;</i> &nbsp &nbsp  Aradhya Agrawal  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <i style='font-size:20px' class='fas'>&#xf156;</i> 1000000</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="coupon">
+      <img src="buy5.jpg" style="width:100%;height:40%">
+    <div class="container">
+       <h2 style="color:green">Park Avenue</h2>
+	<br>	   
+     <i class="fa fa-map-marker" style="font-size:20px;color:red;"></i>	
+	 201,vilas nagar Indore 
+	 <br><br>
+	 <i style="font-size:20px;color:red" class="fa">&#xf015</i>  1600sqft &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style="font-size:20px;color:red" class="fa">&#xf236;</i>  4BHK  
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px,color:red' class='fas'>&#xf5c5;</i>    Yes
+	  <br><i style="font-size:20px;color:red" class="fa">&#xf2cd;</i>   3 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf26c;</i>
+	  Yes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf5e4;</i> 1 garage 
+	  <br><br>
+    <p><i style='font-size:22px' class='fas'>&#xf007;</i> &nbsp &nbsp  Ayushi Gupta &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <i style='font-size:20px' class='fas'>&#xf156;</i> 600000</p> </div>
+    </div>
+  </div>
+  <div class="column">
+      <img src="buy6.jpg" style="width:100%;height:40%">
+    <div class="container" >
+        <h2 style="color:green">Masons Villas</h2>
+	<br>
+    <i class="fa fa-map-marker" style="font-size:20px;color:red;"></i>	
+	 41, Agrawal Nagar Indore 
+	 <br><br>
+	 <i style="font-size:20px;color:red" class="fa">&#xf015</i>  2000sqft &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style="font-size:20px;color:red" class="fa">&#xf236;</i>  4BHK  
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px,color:red' class='fas'>&#xf5c5;</i>    Yes
+	  <br><i style="font-size:20px;color:red" class="fa">&#xf2cd;</i>   4 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf26c;</i>
+	  Yes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i style='font-size:20px;color:red' class='fas'>&#xf5e4;</i> 1 garage 
+	  <br><br>
+    <p><i style='font-size:22px' class='fas'>&#xf007;</i> &nbsp &nbsp  Ayushi Gupta &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <i style='font-size:20px' class='fas'>&#xf156;</i> 700000</p>  </div>
+    </div>
+  </div>   
+ </div>
+
+<div class="footer">
+				<ul>
+				<li style="margin-top:-30px;margin-left:10px">CONTACT NO:1234567890</li>
+				<li style="margin-top:-30px;margin-left:875px">FOLLOW US ON: &nbsp &nbsp &nbsp   <i style='font-size:16px;' class='fab'>&#xf16d;</i> &nbsp &nbsp &nbsp  <i style='font-size:16px' class='fab'>&#xf39e;</i> &nbsp &nbsp &nbsp <i style='font-size:16px' class='fab'>&#xf099;</i></li>
+				<li style="margin-top:-35px;margin-left:400px;"><i style='font-size:16px'  class='far'>&#xf1f9;</i> Copyright Dream Homes Co-operation</li>			
+			</ul>
+		
+</body>
+</html>

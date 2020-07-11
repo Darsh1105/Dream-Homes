@@ -1,0 +1,13 @@
+.footer{
+
+height: 20px;
+width: 100%;
+padding-top:25px;
+position: absolute;
+top: 650px;
+background:black;
+color:white;
+opacity: .4;
+ filter: alpha(opacity=40);
+text-align: left;
+}

@@ -1,0 +1,29 @@
+.coupon {
+    border: 5px  indigo;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 400px;
+	float:left;
+	background-color:cyan;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+}
+
+.promo {
+    background: #ccc;
+    padding: 3px;
+}
+
+.expire {
+    color: red;
+}
+
+.conditon {
+    color:green;
+	font-family:Georgia;
+	
+}
